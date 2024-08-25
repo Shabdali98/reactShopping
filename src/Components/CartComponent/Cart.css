@@ -1,0 +1,111 @@
+/* Ensure header remains fixed and content appears below */
+.cart-container {
+  margin-top: 100px; /* Increase space to push content down from fixed header */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center align the container */
+}
+
+/* Header styling */
+h2 {
+  font-size: 28px; /* Increase font size if needed */
+  color: #333;
+  margin-top: 40px; /* Space above the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center align the heading text */
+}
+
+/* List styling */
+.ui.list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+/* List item styling */
+.ui.list .item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Add padding for better spacing */
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  margin-bottom: 10px; /* Add space between items */
+}
+
+/* Remove bottom border for last item */
+.ui.list .item:last-child {
+  border-bottom: none;
+}
+
+/* Image container styling */
+.ui.list .item .image {
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+/* Image styling */
+.ui.list .item .image img {
+  width: 100px; /* Adjust based on design needs */
+  height: 100px; /* Ensure square images */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 4px;
+}
+
+/* Content container styling */
+.ui.list .item .content {
+  flex-grow: 1;
+}
+
+/* Header inside list item */
+.ui.list .item .header {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Description styling */
+.ui.list .item .description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.ui.button.red {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-top: 10px;
+}
+
+/* Button hover effect */
+.ui.button.red:hover {
+  background-color: #c62828;
+}
+
+/* Segment styling */
+.ui.segment {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Total amount styling */
+.total-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Empty cart message styling */
+.empty-cart-message {
+  font-size: 18px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
